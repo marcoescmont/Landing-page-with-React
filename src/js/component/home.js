@@ -8,14 +8,14 @@ import PropTypes from "prop-types";
 
 export const NavBar = props => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+		<nav className="navbar navbar-expand-lg bg-dark">
 			<a className="navbar-brand text-light" href={props.LPUrl}>
 				<h1>
 					<h1 className={props.LPlogo}></h1> {props.LPname}
 				</h1>
 			</a>
 			<button
-				className="navbar-toggler float-right"
+				className="navbar-toggler"
 				type="button"
 				data-toggle="collapse"
 				data-target="#navbarSupportedContent"
