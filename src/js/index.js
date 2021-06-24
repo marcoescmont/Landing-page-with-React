@@ -12,6 +12,7 @@ import "../styles/index.scss";
 import { NavBar } from "./component/home.js";
 import { Jumbotron } from "./component/home.js";
 import { Cards } from "./component/home.js";
+import { Footer } from "./component/home.js";
 
 //render your react application
 ReactDOM.render(
@@ -32,7 +33,7 @@ ReactDOM.render(
 				DropdownOp4URL="#"
 			/>
 		</div>
-		<div className="w-75 m-auto">
+		<div className="w-75 mx-auto mb-5 mt-5">
 			<div>
 				<Jumbotron
 					Title="Hello, world!"
@@ -43,7 +44,7 @@ ReactDOM.render(
 			</div>
 			<div className="card-deck">
 				<Cards
-					ImageURL=""
+					ImageURL="https://cdn.britannica.com/06/171306-050-C88DD752/Aurora-borealis-peninsula-Snaefellsnes-Iceland-March-2013.jpg"
 					ImageAlt=""
 					Title="THIS"
 					Content="Some quick example text to build on the card
@@ -54,7 +55,7 @@ ReactDOM.render(
 					ButtonContent="The sky"
 				/>
 				<Cards
-					ImageURL=""
+					ImageURL="https://www.worldatlas.com/r/w1200/upload/8a/0c/7b/shutterstock-358038821.jpg"
 					ImageAlt=""
 					Title="IS"
 					Content="Some quick example text to build on the card
@@ -65,7 +66,7 @@ ReactDOM.render(
 					ButtonContent="Is"
 				/>
 				<Cards
-					ImageURL=""
+					ImageURL="https://ecophiles.com/wp-content/uploads/2017/09/Crater-Lake-759x500.jpg"
 					ImageAlt=""
 					Title="REALLY"
 					Content="Some quick example text to build on the card
@@ -76,7 +77,7 @@ ReactDOM.render(
 					ButtonContent="The"
 				/>
 				<Cards
-					ImageURL=""
+					ImageURL="https://cdn.kimkim.com/files/a/content_articles/featured_photos/01d0ebb606a2065f0ecc8a3112ec85e67d9b2005/big-69cd90f23b17d410f24ca2af3fb95840.jpg"
 					ImageAlt=""
 					Title="AMAZING!!"
 					Content="Some quick example text to build on the card
@@ -87,6 +88,9 @@ ReactDOM.render(
 					ButtonContent="Limit"
 				/>
 			</div>
+		</div>
+		<div>
+			<Footer />
 		</div>
 	</div>,
 	document.querySelector("#app")
