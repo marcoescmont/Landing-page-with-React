@@ -33,7 +33,7 @@ ReactDOM.render(
 				DropdownOp4URL="#"
 			/>
 		</div>
-		<div className="w-75 mx-auto mb-5 mt-5">
+		<div className="mr-4 ml-4 mb-5 mt-5">
 			<div>
 				<Jumbotron
 					Title="Hello, world!"
