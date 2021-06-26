@@ -9,10 +9,10 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { NavBar } from "./component/home.js";
-import { Jumbotron } from "./component/home.js";
-import { Cards } from "./component/home.js";
-import { Footer } from "./component/home.js";
+import { NavBar } from "./component/NavBar";
+import { Jumbotron } from "./component/Jumbotron";
+import { Cards } from "./component/Cards";
+import { Footer } from "./component/Footer";
 
 //render your react application
 ReactDOM.render(
@@ -33,7 +33,7 @@ ReactDOM.render(
 				DropdownOp4URL="#"
 			/>
 		</div>
-		<div className="mr-4 ml-4 mb-5 mt-5">
+		<div className="mr-4 ml-4 mb-5 mt-5 pt-5">
 			<div>
 				<Jumbotron
 					Title="Hello, world!"
